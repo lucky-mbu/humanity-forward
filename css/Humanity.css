@@ -1,0 +1,206 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+    line-height: 1.4;
+    font-family: serif;
+    color: #000;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h3 {
+    margin: 0 auto;
+    font-size: 2rem;
+}
+input {
+    font-size: 1.23rem;
+    margin: 0.20rem 0.20rem;
+    padding: 0.30rem;
+    height: 3rem;
+}
+/*1st logo*/
+.logo {
+    position: relative;
+    top: 0%;
+    height: 3rem;
+    background-color: #c00;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.support {
+    transition: color 750ms ease-in-out 500ms,
+    background-color 750ms ease-in-out 500ms,
+    font-size 750ms ease-in-out 500ms,
+    height 750ms ease-in-out 500ms;
+
+}
+.support:hover {
+    background-color: #00fa9f;
+    color: #ffd90a;
+    font-size: 2rem;
+    height: 4rem;
+}
+/*end of 1st logo*/
+/*2nd logo*/
+.logo2 {
+    border-bottom: 0.19rem solid slategray;
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+    top: 0em;
+    position: sticky;
+}
+img {
+    height:auto;
+    float: left;
+    clear: both;
+}
+.nav {
+   float: right;
+   list-style: none;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 0.73rem;
+}
+li {
+    margin: 0 0.73rem;
+}
+.inp {
+    font-weight: bold;
+    color: #fff;
+    background-color: #c00;
+    border: none;
+}
+.inp:hover {
+    transition: background-color 750ms ease-in 500ms;
+    background-color: #54b;
+}
+.list:hover {
+    transition: border-bottom 500ms linear 500ms;
+    border-bottom: 0.20rem solid #54b6c6;
+}
+/*end of 2nd logo*/
+/*1st body*/
+.bdy {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+    background-image: url("https://img2.storyblok.com/2560x1707/smart/filters:quality:(100)/f/84073/3840x2560/531c03d4aa/corona_relief_hero.jpg");
+}
+
+/*end of 1st body*/
+/*2nd body*/
+#bdy {
+    padding: 1rem;
+    margin: 0.99rem auto;
+    word-spacing: 0.23rem;
+    word-break: keep-all;
+    white-space: pre-line;
+    text-align: left;
+    width: 50rem;
+    border: 0.60rem solid #061a40;
+}
+
+/*end of 2nd body*/
+/*3rd body */
+#bdy3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://img2.storyblok.com/1920x1280/smart/filters:quality:(100)/f/84073/3840x2560/462b665ef1/corona_relief_cta.jpg");
+    height: 30rem;
+}
+#get {
+    background-color: skyblue;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+/*end of 3rd body*/
+/*4th body*/
+
+#bdy4 {
+    padding: 1rem;
+    margin: 0.99rem auto;
+    word-spacing: 0.23rem;
+    word-break: keep-all;
+    white-space: pre-line;
+    text-align: left;
+    width: 45rem;
+    border: 0.60rem solid skyblue;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.navy {
+    color: #061a40;
+}
+.blue {
+    color: skyblue;
+}
+.money{
+    border: none;
+    font-weight: bold;
+    color: #fff;   
+    height: 2.64rem;
+    width: 20rem;
+    background-color: #c00;
+}
+.money:hover {
+    transition: background-color 750ms ease-out 750ms,
+    color 750ms ease-out 750ms,
+    font-size 750ms ease-out 750ms;
+    background-color: #061;
+    color: #ffd90a;
+    text-shadow: #ffd90a 0.65rem;
+    font-size: 1.5rem;
+}
+.box {
+    height: 17rem;
+    background-color:  #061a40;
+    margin-bottom: 0.22rem;
+}
+/*end of 4th body*/
+/*social medias*/
+.fa {
+    color: slategray;
+    font-size: 2rem;
+    width: 2rem; 
+    text-decoration: none;
+    margin: 0.12rem 0.30rem;
+}
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #000;
+}   
+.fa-google {}
+.fa-facebook {}
+.fa-linkedin {}
+.fa-instagram {}
+  /*end of social medias*/
+#i {
+    background-color: #fff;
+    border: 0.12rem solid #000;
+}
+a:hover {
+    color: #54b6c6;
+    cursor: pointer;
+}
+footer {
+    margin: 0.22rem auto;
+}
+@media only screen and (max-width: 480px) {
+
+}
